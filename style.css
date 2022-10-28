@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family:'Roboto' , sans-serif
+
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+header .logo {
+    position: relative;
+    max-width: 200px;
+
+}
+header ul {
+    position: relative;
+    display: flex;
+
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 40px;
+    text-decoration: none;
+    
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.content .textbox {
+    position: relative;
+    max-width: 800px;
+
+}
+
+.content .textbox h2 {
+    font-size: 3em;
+    line-height: 100px;
+    font-weight: 800;
+    word-spacing: 20px;
+
+}
+
+.content .textbox h2 span {
+    font-size: 25px;
+    word-spacing: 5px;
+    line-height: 20px;
+
+}
+
+.content .textbox p {
+    font: 15px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 40px;
+    background: #fff;
+    color: black;
+    font-weight: 600;
+    border: 1px solid #000;
+    text-decoration: none;
+}
