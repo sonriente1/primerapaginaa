@@ -17,7 +17,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(3, 3, 3);
 
 }
 
@@ -58,10 +58,12 @@ header ul li {
 
 header ul li a {
     display: inline-block;
-    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
     font-weight: 100;
     margin-left: 40px;
     text-decoration: none;
+    color: rgba(246, 249, 242, 0.8);
     
 }
 
@@ -96,16 +98,17 @@ header ul li a {
 }
 
 .content .textbox p {
-    font: 15px;
+    font: 18px;
     word-spacing: 5px;
     line-height: 25px;
+    color: white);
 }
 
 .content .textbox a {
     display: inline-block;
     margin-top: 20px;
     padding: 13px 40px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     color: black;
     font-weight: 600;
     border: 1px solid #000;
@@ -116,16 +119,16 @@ header ul li a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-between;
     margin: auto;
-    justify-items: center;
+    justify-items:center;
     align-items: center;
 }
 
 .card-conteiner {
     background-color: #000;
-    width: 260px;
-    height: 360px;
+    width: 280px;
+    height: 380px;
     border-radius: 0.5rem;
     overflow: hidden;
     margin: 20px ;
